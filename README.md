@@ -50,18 +50,18 @@ $ yarn build
 
 ## Key Components
 
-Constants `@/lib/constants.tsx`: Holds relevant config variables
-Types `@/lib/types.ts`: Some simple types for context and messages
-UI `@/components/ui/...`: Uses `shadcn/ui` components with `cva` + `tailwind` for easy variants 
-Hooks `@/lib/hooks.tsx`: Some custom hooks for handling advanced lifecycle methods
-Store `@/lib/provider.tsx`: All state is stored and managed by context, using custom methods to update the state  
-Setup `@/components/setup-modal.tsx`: A welcome modal with onboarding steps like add username, create channel  
-User Modal `@/components/channel-modal.tsx`: Renders a modal with controls to update username  
-Channels `@/components/channel-list.tsx`: Renders a list of ChannelItems used to interact with each channel  
-Channel Item `@/components/channel-item.tsx`: Renders a channel item with controls to leave, join, delete channel  
-Channel Modal `@/components/channel-modal.tsx`: Renders a modal with controls to create channels  
-Chat `@/components/chat-window.tsx`: Renders a layout with channel details, inputs and list of ChatBubbles
-Bubbles `@/components/chat-bubble.tsx`: Renders each individual chat bubble with username, content and time
+Constants `@/lib/constants.tsx`: Holds relevant config variables  
+Types `@/lib/types.ts`: Some simple types for context and messages  
+UI `@/components/ui/...`: Uses `shadcn/ui` components with `cva` + `tailwind` for easy variants   
+Hooks `@/lib/hooks.tsx`: Some custom hooks for handling advanced lifecycle methods  
+Store `@/lib/provider.tsx`: All state is stored and managed by context, using custom methods to update the state   
+Setup `@/components/setup-modal.tsx`: A welcome modal with onboarding steps like add username, create channel   
+User Modal `@/components/channel-modal.tsx`: Renders a modal with controls to update username   
+Channels `@/components/channel-list.tsx`: Renders a list of ChannelItems used to interact with each channel   
+Channel Item `@/components/channel-item.tsx`: Renders a channel item with controls to leave, join, delete channel    
+Channel Modal `@/components/channel-modal.tsx`: Renders a modal with controls to create channels   
+Chat `@/components/chat-window.tsx`: Renders a layout with channel details, inputs and list of ChatBubbles  
+Bubbles `@/components/chat-bubble.tsx`: Renders each individual chat bubble with username, content and time  
 
 
 ## Development 
